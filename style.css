@@ -1,0 +1,98 @@
+.container{
+    width: 580px;
+    height: 90vh;
+    padding: 20px 30px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    margin: auto;
+    overflow: scroll;
+
+}
+
+p{
+    text-align: justify;
+}
+
+img{
+    width: 530px;
+    height: 350px;
+    align-self: center;
+    margin-left: 19px;
+}
+
+h1{
+    font-size: 25px;
+}
+
+table {
+    width: 420x;
+    height: 300px;
+    border-spacing: none;
+}
+
+th {
+    text-align: left;
+    background-color: brown;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+}
+
+table,
+td,
+tr,
+th {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+form{
+    width: 300px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    padding: 5px 10px;
+    margin: auto;
+    border-radius: 20px;
+}
+
+input[type="text"], input[type="email"]{
+    margin: 4px 0px;
+    width: 283px;
+    padding: 3px;
+    border-radius: 5px 10px;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+}
+
+label{
+    font-weight: bold;
+}
+
+select{
+    width: 100px;
+    margin-bottom: 4px;
+    padding: 1px;
+}
+
+input[type="submit"]{
+    margin-bottom: 9px;
+    padding: 5px 50px;
+    margin-left: 77px;
+    border-radius: 20px;
+    color: #fff;
+    background: blue;
+    cursor: pointer;
+}
+
+.font{
+    font-size: 25px;
+    text-align: center;
+    color: blue;
+    text-transform: capitalize;
+}
+
+.user-icon{
+    margin-left: 40%;
+    width: 20%;
+    height: 10vh;
+    margin-top: -11px;
+}
